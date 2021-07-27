@@ -9,7 +9,7 @@ package clases;
  *
  * @author aiya
  */
-public class Animal {
+public class Animal{
     
     //Atributos
     private long id;
@@ -17,7 +17,8 @@ public class Animal {
     private int year;
     
     //Constructor
-    public Animal() {}
+    public Animal() {
+    }
 
     public Animal(long id, String name, int year) {
         this.id = id;
@@ -55,7 +56,16 @@ public class Animal {
         return "Animal{" + "id=" + id + ", name=" + name + ", year=" + year + '}';
     }
 
+    public String setOperacion(){
+        hola();
+        if(this.year >= 8)
+            return "Revisar para operación";
+        return "No necesita revisión";
+    }
     
+    private void hola(){
     
+    }
     
+     
 }
