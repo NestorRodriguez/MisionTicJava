@@ -3,28 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package interfaces;
-
-import interfaces.pruebaImplementacion.login;
-import interfaces.pruebaImplementacion.registro;
+package interfazgrafica;
 
 /**
  *
  * @author aiya
  */
-public class Interfaces {
+public class InterfazGrafica {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        login login = new login();
-        login.logear("Pepe", "1234");
-        
-        registro register = new registro();
-        register.logear("Camilo", "234");
-        
+        // TODO code application logic here
     }
     
 }

@@ -9,7 +9,7 @@ package interfaces.pruebaImplementacion;
  *
  * @author aiya
  */
-public class login implements InterfaceLogin{
+public class login implements InterfaceLogin, InterfaceProducto{
     
     @Override
     public void logear(String user, String password) {
