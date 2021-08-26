@@ -20,6 +20,11 @@ public class GUIPOO {
         // TODO code application logic here
         UIVenta ui = new UIVenta();
         ui.setVisible(true);
+        try {
+            
+        } catch (Exception e) {
+            e.getCause().getMessage();
+        }
     }
     
 }

@@ -3,10 +3,10 @@
 create  database prueba;
 use prueba;
 create table user(
-id int, 
-name varchar(255),
+id int not null, 
+name varchar(255) not null,
 last_name varchar(255),
-documento_cliente_empresa varchar(255)
+documento_cliente_empresa varchar(255), primary key(id), unique(documento_cliente_empresa)
 );
 
 /* DROP*/
@@ -14,7 +14,7 @@ drop database prueba2;
 drop table usuario;
 
 /* ALTER */
-ALTER TABLE usuario add tipo_documento varchar(45);
+ALTER TABLE usuario add primary key(id) /* tipo_documento varchar(45) ;*/;
 use prueba;
 /*Sentencias DML - CRUD*/
 
